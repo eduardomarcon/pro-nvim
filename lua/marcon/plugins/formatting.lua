@@ -19,6 +19,7 @@ return {
         markdown = { "prettier" },
         graphql = { "prettier" },
         lua = { "stylua" },
+        go = { "goimports", "golines", "gofumpt" },
       },
       format_on_save = {
         lsp_fallback = true,

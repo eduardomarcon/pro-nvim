@@ -17,7 +17,7 @@ return {
         "prettier", -- prettier formatter
         "stylua", -- lua formatter
         "eslint_d", -- js linter
-        "goimports_reviser", -- go formatter
+        "goimports", -- go formatter
         "golines", -- go formatter
         "gofumpt", -- go formatter
       },
@@ -43,7 +43,7 @@ return {
         }), -- js/ts formatter
         formatting.stylua, -- lua formatter
         formatting.isort,
-        formatting.goimports_reviser, -- go formatter
+        formatting.goimports, -- go formatter
         formatting.golines, -- go formatter
         formatting.gofumpt, -- go formatter
         diagnostics.eslint_d.with({ -- js/ts linter
